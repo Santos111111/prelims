@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm px-4">
+        <img src="https://tesdatrainingcourses.com/wp-content/uploads/2017/01/Dominican-College-of-Tarlac.png"
+            alt="Dominican-College-of-Tarlac" width="50" height="60">
+        <a class="navbar-brand" href=''><strong>{Group No#13}</strong></a>
+        <div class="search-box mt-4"></div>
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item active "><a class="nav-link" href='index.html'>Students</a></li>
+            <li class="nav-item "><a class="nav-link" href='index2.html'>Attendance</a></li>
+            <li class="nav-item "><a class="nav-link" href='index3.html'>Form</a></li>
+        </ul>
+        <input type="text" class="form-control w-25 me-2" placeholder="Search">
+        <button class="btn btn-outline-success">Search</button>
+
+
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row g-3">
+            <div class="container mt-4">
+
+                <div class="col-md-4 mb-3">
+                    <div class="card text-white bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                            <p class="card-text">Total Students</p>
+                            <button class="btn btn-light btn-sm">Add Student</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card text-white bg-success">
+                        <div class="card-body">
+                            <h5 class="card-title">3</h5>
+                            <p class="card-text">Total Present</p>
+                            <button class="btn btn-light btn-sm">See More...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card text-white bg-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">4</h5>
+                            <p class="card-text">Total Absent</p>
+                            <button class="btn btn-light btn-sm">See More...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="table-responsive">
+                <div class="col-md-9"></div>
+                <table class="table table-bordered table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>No.</th>
+                            <th>Student No.</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Gender</th>
+                            <th>Civil Status</th>
+                            <th>Nationality</th>
+                            <th>Date of Birth</th>
+                            <th>Place of Birth</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>STU2025001</td>
+                            <td>John Doe</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Male</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>STU2025002</td>
+                            <td>Jane Smith</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Female</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>STU2025003</td>
+                            <td>Michael Brown</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Male</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>STU2025004</td>
+                            <td>Emily Davis</td>
+                            <td><span class="status-absent">Absent</span></td>
+                            <td>Female</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>STU2025005</td>
+                            <td>Chris Johnson</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Male</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>STU2025006</td>
+                            <td>Sarah Lee</td>
+                            <td><span class="status-absent">Absent</span></td>
+                            <td>Female</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>STU2025007</td>
+                            <td>David Clark</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Male</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>STU2025008</td>
+                            <td>Laura Wilson</td>
+                            <td><span class="status-absent">Absent</span></td>
+                            <td>Female</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>STU2025009</td>
+                            <td>Ryan Martinez</td>
+                            <td><span class="status-present">Present</span></td>
+                            <td>Male</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>STU2025010</td>
+                            <td>Alice Taylor</td>
+                            <td><span class="status-absent">Absent</span></td>
+                            <td>Female</td>
+                            <td>Single</td>
+                            <td>Filipino</td>
+                            <td>January 1, 2000</td>
+                            <td>Street, Barangay</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dct.edu.ph/wp-content/uploads/2024/11/GS-Logo-150x150.png" alt="Los Angeles"
+                        class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dct.edu.ph/wp-content/uploads/2024/11/JHS-Logo-300x300.png" alt="Chicago"
+                        class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dct.edu.ph/wp-content/uploads/2024/11/SHS-Logo-300x300.png" alt="New York"
+                        class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <br>
+        </div>
+
+        <div id="about" class="section md-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header text-center">
+                        <h2 class="title">PVMGO</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about" style="height: 270px;">
+                        <i class="fa fa-eye"></i>
+                        <h3>Vision</h3>
+                        <p>A God-loving educational community with passion for truth and compassion for
+                            humanity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about" style="height: 270px;">
+                        <i class="fa fa-users"></i>
+                        <h3>Mission</h3>
+                        <p>We commit ourselves to promote the truth and holistically transform persons for the
+                            service of humanity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="about">
+                    <i class="fa fa-flag-checkered"></i>
+                    <h3>Goals, Core Values, and Objectives</h3>
+                    <p>We aim to provide a system of cultivating learner-centered practices that promotes
+                        the 21st century skills and a way of life that centers on faith, wisdom, patriotism.
+                    </p>
+                    <h3>Faith (Fides)</h3>
+                    <p>Practice acquired understanding of Gospel values in every aspect of life.</p>
+                    <h3>Patriotism (Patria)</h3>
+                    <p>Inculcate and promote Filipino Christian values.</p>
+                    <h3>Wisdom (Sapentia)</h3>
+                    <p>Possess knowledge and skills for effective communication to engage oneself in
+                        relevant research-based socio-cultural issues.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
